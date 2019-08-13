@@ -1959,7 +1959,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #999;
+		/* Removed the color #999 for the text here because it was too light and did not contrast with the background well */
 		font-size: 1.25em;
 		position: relative;
 		margin-top: -1.25em;
