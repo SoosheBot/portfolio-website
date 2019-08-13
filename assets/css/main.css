@@ -2720,7 +2720,8 @@ input, select, textarea {
 /* Contact Form */
 
 	.contact h3{
-		padding-right:1em;
+		padding-top:2em;
+		padding-left:1em;
 	}
 
 	.contact form {
