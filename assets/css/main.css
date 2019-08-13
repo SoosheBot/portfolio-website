@@ -116,7 +116,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #228B22;
+			color: #2E8B57;
 			border-bottom-color: transparent;
 		}
 
@@ -2435,7 +2435,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #228B22;
+			background-color: #474747;
 			color: #fff !important;
 		}
 
@@ -2453,7 +2453,7 @@ input, select, textarea {
 		input[type="button"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #555555;
+			background-color: #2e8b57;
 			color: #fff;
 		}
 
@@ -2718,51 +2718,17 @@ input, select, textarea {
 			}
 
 /* Contact Form */
-#contact-form {
-	background-image: url("../../images/banner.jpg");
-	background-position: center center;
-	background-size: cover;
-	height: 28em;
-	text-align: center;
-	position: relative;
-}
 
-	#contact-form header {
-		position: absolute;
-
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		background: #212121;
-		background: rgba(27, 27, 27, 0.75);
-		color: #fff;
-		padding: 1.5em 0;
+	.contact h3{
+		padding-right:1em;
 	}
 
-		#contact-form header h2 {
-			display: inline-block;
-			margin: 0;
-			font-size: 1.25em;
-			vertical-align: middle;
-		}
-
-			#contact-form h2 em {
-				opacity: 0.75;
-			}
-
-			#contact-form header h2 a {
-				border-bottom-color: rgba(255, 255, 255, 0.5);
-			}
-
-			#contact-form header h2 a:hover {
-					border-bottom-color: transparent;
-				}
-
-		#contact-form header .button {
-			vertical-align: middle;
-			margin-left: 1em;
-		}
-
+	.contact form {
+		display: block;
+		margin-top: 1em;
+		padding-left:1em;
+		padding-right:1em;
+	}
 
 /* Wrapper */
 
@@ -2830,7 +2796,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #37c0fb;
+				color: #2E8B57;
 				border-bottom-color: transparent;
 			}
 
@@ -2848,7 +2814,7 @@ input, select, textarea {
 			}
 
 				#footer .icons a:hover {
-					color: #474747;
+					color: #2E8B57;
 				}
 
 		#footer .copyright {
