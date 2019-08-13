@@ -110,7 +110,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		color: #2E8B57;
+		color: #fff;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -2165,6 +2165,10 @@ input, select, textarea {
 			.icon.major:before {
 				font-size: 36px;
 			}
+		
+		.far{
+			font-size:inherit;
+		}
 
 /* Lists */
 
